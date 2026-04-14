@@ -1,13 +1,13 @@
-# ⌨️ ABNT2 Keyboard Fix on Linux (Resumo)
-
+# ⌨️ ABNT2 Keyboard Fix on Linux (Resumo) ⌨
+ 
 [🇧🇷 Português](#-português) | [🇺🇸 English](#-english)
 
 ---
 
 ## 🇧🇷 Português
 
-### 📌 Sobre
-Este projeto mostra como corrigir o layout do `teclado ABNT2`.
+### 👉 Sobre
+Este projeto mostra como corrigir o layout do `teclado ABNT2`.⌨️
 
 **Ambiente testado:**  
 Linux Mint Cinnamon(Ubuntu-based) (Pode não funcionar em Wayland).
@@ -19,13 +19,13 @@ echo $XDG_SESSION_TYPE
 
 ```
 
-### ⚠️ Problema
+### 📌 Problema
 Teclas como `ç`, `acentos` ou `simbolos` não funcionam corretamente.
 
 ---
-   ### ⚙️ Solução 1 (Recomendado Via Interface)
+   ### ⚒️ Solução 1 (Recomendado Via Interface)
 
-Antes de ir para o terminal, tente o caminho oficial
+✨Antes de ir para o terminal, tente o caminho oficial✨
 
   1. Abra o menu **Teclado**  
 2. Vá até a aba **Modelos**  
@@ -33,7 +33,7 @@ Antes de ir para o terminal, tente o caminho oficial
 4. Use as setas para colocá-lo no topo da lista  
 5. (Opcional) Remova outros layouts
 ---
-  ### ⚙️ Solução 2 (Temporária - apenas sessão)
+  ### ⚒️ Solução 2 (Temporária - apenas sessão)
   
 Abra o terminal, execute e teste:
   
@@ -41,7 +41,7 @@ Abra o terminal, execute e teste:
 setxkbmap -layout br -variant abnt2
 ```
 ---
-   ### ⚙️ Solução 3 (Persistente via Script de Inicialização)
+   ### ⚒️ Solução 3 (Persistente via Script de Inicialização)
 Abra o gerenciador de Aplicativos de Inicialização.
 
 Clique em Adicionar > Comando Personalizado.

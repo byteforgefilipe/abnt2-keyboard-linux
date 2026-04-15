@@ -50,6 +50,8 @@ Clique em Adicionar > Comando Personalizado.
 Preencha os campos:         
 
  Nome: Fix Teclado ABNT2
+ 
  Comando: setxkbmap -model abnt2 -layout br -variant abnt2
+ 
  Atraso na inicialização: 2 segundos (ajuda a garantir que o servidor gráfico já carregou)
     

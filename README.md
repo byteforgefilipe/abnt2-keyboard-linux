@@ -95,8 +95,8 @@ Click ✚ → Custom command
 
 Fill in:
 
-Name: ABNT2 Keyboard
-Command: setxkbmap -model abnt2 -layout br -variant abnt2
-Delay: 2 seconds 
+Name: ABNT2 Keyboard  
+Command: setxkbmap -model abnt2 -layout br -variant abnt2  
+Delay: 2 seconds  
 
     

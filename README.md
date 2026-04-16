@@ -1,6 +1,6 @@
-# ⌨️ ABNT2 Keyboard Fix on Linux (Resumo) ⌨
+# ABNT2 Keyboard Fix on Linux (Resumo) ⌨
  
-[🇧🇷 Português](#-português) | [🇺🇸 English](#-english)
+[🇧🇷 Português](#português) | [🇺🇸 English](#english)
 
 ---
 
@@ -25,7 +25,7 @@ Teclas como `ç`, `acentos` ou `símbolos` não funcionam corretamente.
 ---
    ### ⚒️ Solução 1 (Recomendado Via Interface)
 
-✨Antes de ir para o terminal, tente o caminho oficial✨
+✨ Antes de ir para o terminal, tente o caminho oficial ✨
 
 1. Abra o menu **Teclado**  
 2. Vá até a aba **Modelos**  
@@ -49,10 +49,54 @@ setxkbmap -layout br -variant abnt2
 - Nome: `Teclado ABNT2`
 - Comando: `setxkbmap -model abnt2 -layout br -variant abnt2`
 - Atraso: `2 segundos` (ajuda a garantir que o servidor gráfico já carregou)
+---
+---
  
+## 🇺🇸 English
+👉 About
 
+This project shows how to fix issues with the ABNT2 keyboard layout on Linux.
 
+Tested environment:
+Linux Mint Cinnamon (Ubuntu-based)
+⚠️ May not work properly on Wayland sessions.
 
+To check your session type:
+```bash
+echo $XDG_SESSION_TYPE
+```
 
+📌 Problem
+
+Keys like ç, accents, or symbols don’t work correctly.
+
+---
+
+⚒️ Solution 1 (Recommended - GUI)
+
+✨ Before using the terminal, try the official method ✨
+
+Open Keyboard settings
+Go to the Layouts tab
+Click Add and select Portuguese (Brazil)
+Move it to the top
+(Optional) Remove other layouts
+⚒️ Solution 2 (Temporary - session only)
+
+Run in terminal:
+```bash
+setxkbmap -layout br -variant abnt2
+```
+---
+
+⚒️ Solution 3 (Persistent - Startup)
+Open Startup Applications
+Click ✚ → Custom command
+
+Fill in:
+
+Name: ABNT2 Keyboard
+Command: setxkbmap -model abnt2 -layout br -variant abnt2
+Delay: 2 seconds 
 
     

@@ -76,11 +76,13 @@ Keys like ç, accents, or symbols don’t work correctly.
 
 ✨ Before using the terminal, try the official method ✨
 
-Open Keyboard settings  
-Go to the Layouts tab  
-Click Add and select Portuguese (Brazil)  
-Move it to the top  
-(Optional) Remove other layouts  
+1.Open Keyboard settings  
+2.Go to the Layouts tab  
+3.Click Add and select Portuguese (Brazil)  
+4.Move it to the top  
+5.(Optional) Remove other layouts  
+---
+
 ⚒️ Solution 2 (Temporary - session only)
 
 Run in terminal:
